@@ -1,0 +1,123 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-trumps-wrapper {
+  width: 100%;
+  margin: 10% auto 0;
+  position: relative;
+  background: #eee;
+
+  max-width: 600px;
+  min-height: 400px;
+}
+
+.top-trumps-side {
+  width: 50%;
+  min-height: inherit;
+  display: inline-block;
+  
+  position: relative;
+}
+
+.top-trumps-side.top-trumps-user {
+  background-color: lightGreen;
+}
+
+.top-trumps-side.top-trumps-cpu {
+  background-color: lightBlue;
+}
+
+.top-trumps-card-wrapper {
+  width: 90%;
+  height: 330px;
+  margin: 20px auto 0px;
+  
+  background-color: #ccc;
+}
+
+.top-trumps-points {
+  width: 100%;
+  height: 50px;
+  
+  font-size: 2em;
+  line-height: 1.5em;
+  
+  text-align: center;
+}
+
+.top-trumps-overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  
+  opacity: 0.8;
+  background: white;
+}
+
+.top-trumps-start-button {
+  font-size: 2em;
+  line-height: 1.5em;
+  
+  cursor: pointer;
+  
+  display: block;
+
+  position: absolute;
+  
+  top: 50%;
+  left: 50%;
+
+  margin-top: -24px;
+  margin-left: -82px;
+}
+
+.top-trumps-start-button:hover {
+  color: red;
+}
+
+.top-trumps-card-field {
+  padding: 1% 0;
+  margin: 5%;
+  background: white;
+  cursor: pointer;
+}
+
+.top-trumps-card-field.active {
+  background: red;
+}
+
+.top-trumps-card-field.top-trump {
+  color: blue;
+}
+
+.top-trumps-card-field-name {
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+.top-trumps-card-field-value {
+  float: right;
+  display: inline-block;
+  padding-right: 5%;
+}
+
+.top-trumps-card-fields {
+  padding-top: 30%;
+}
+
+.top-trumps-card-name {
+  padding: 5%;
+  
+  font-size: 2em;
+  line-height: 1.5em;
+  
+  text-align: center;
+}
