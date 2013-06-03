@@ -1,0 +1,16 @@
+﻿.tt-wrapper{background:#eee;margin:10% auto 0;max-width:600px;min-height:400px;position:relative;width:100%}
+.tt-side{display:inline-block;min-height:inherit;position:relative;width:50%}
+.tt-side.tt-user{background-color:#90EE90}
+.tt-side.tt-cpu{background-color:#ADD8E6}
+.tt-card-wrapper{background-color:#ccc;height:330px;margin:20px auto 0;width:90%}
+.tt-points{font-size:2em;height:50px;line-height:1.5em;text-align:center;width:100%}
+.tt-overlay{background:#FFF;height:100%;left:0;opacity:0.8;position:absolute;top:0;width:100%}
+.tt-start-button{cursor:pointer;display:block;font-size:2em;left:50%;line-height:1.5em;margin-left:-82px;margin-top:-24px;position:absolute;top:50%}
+.tt-start-button:hover{color:red}
+.tt-card-field{background:#FFF;cursor:pointer;margin:5%;padding:1% 0}
+.tt-card-field.active{background:red}
+.tt-card-field.top-trump{color:blue}
+.tt-card-field-name{font-weight:700;padding-left:5%}
+.tt-card-field-value{display:inline-block;float:right;padding-right:5%}
+.tt-card-fields{padding-top:30%}
+.tt-card-name{font-size:2em;line-height:1.5em;padding:5%;text-align:center}
