@@ -1,0 +1,63 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <title>jQuery TopTrumps Demo</title>
+
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="../jquery.toptrumps.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#cardgame').toptrumps({
+          'fields' : [
+            {'name': 'Smaller A', 'comparison' : '<'},
+            {'name': 'Bigger A',  'comparison' : '>'},
+            {'name': 'Bigger B',  'comparison' : '>'},
+            {'name': 'Smaller B', 'comparison' : '<'}
+          ],
+          'cards' : [
+            {'name': 'Example 1', 'fields' : [57, 8, 161, 534]},
+            {'name': 'Example 2', 'fields' : [54, 10, 186, 524]},
+            {'name': 'Example 3', 'fields' : [38, 7, 178, 553]},
+            {'name': 'Example 4', 'fields' : [69, 4, 196, 410]},
+            {'name': 'Example 5', 'fields' : [69, 9, 150, 464]},
+            {'name': 'Example 6', 'fields' : [19, 2, 155, 463]},
+            {'name': 'Example 7', 'fields' : [32, 2, 142, 534]},
+            {'name': 'Example 8', 'fields' : [73, 5, 164, 443]},
+            {'name': 'Example 9', 'fields' : [31, 5, 183, 546]},
+            {'name': 'Example 10', 'fields' : [53, 8, 103, 557]},
+            {'name': 'Example 11', 'fields' : [54, 3, 132, 428]},
+            {'name': 'Example 12', 'fields' : [62, 6, 79, 445]},
+            {'name': 'Example 13', 'fields' : [45, 9, 133, 497]},
+            {'name': 'Example 14', 'fields' : [99, 3, 171, 447]},
+            {'name': 'Example 15', 'fields' : [44, 5, 186, 415]},
+            {'name': 'Example 16', 'fields' : [91, 7, 94, 427]},
+            {'name': 'Example 17', 'fields' : [24, 2, 181, 528]},
+            {'name': 'Example 18', 'fields' : [97, 3, 113, 490]},
+            {'name': 'Example 19', 'fields' : [48, 10, 139, 600]},
+            {'name': 'Example 20', 'fields' : [54, 8, 84, 575]},
+            {'name': 'Example 21', 'fields' : [68, 8, 104, 527]},
+            {'name': 'Example 22', 'fields' : [12, 2, 181, 481]},
+            {'name': 'Example 23', 'fields' : [62, 8, 123, 494]},
+            {'name': 'Example 24', 'fields' : [50, 8, 142, 522]},
+            {'name': 'Example 25', 'fields' : [96, 5, 87, 585]},
+            {'name': 'Example 26', 'fields' : [73, 7, 106, 425]},
+            {'name': 'Example 27', 'fields' : [67, 10, 68, 424]},
+            {'name': 'Example 28', 'fields' : [78, 4, 199, 480]},
+            {'name': 'Example 29', 'fields' : [21, 4, 55, 430]},
+            {'name': 'Example 30', 'fields' : [56, 10, 134, 417]},
+            {'name': 'Example 31', 'fields' : [71, 1, 134, 424]},
+            {'name': 'Example 32', 'fields' : [84, 2, 160, 556]}
+          ],
+          'trick' : 'requeue',
+          'difficulty' : 'normal'
+        });
+      });
+    </script>
+
+    <link href="../jquery.toptrumps.css" media="all" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="cardgame"></div>
+  </body>
+</html>
