@@ -10,47 +10,58 @@
       $(document).ready(function() {
         $('#cardgame').toptrumps({
           'fields' : [
-            {'name': 'Smaller A', 'comparison' : '<'},
-            {'name': 'Bigger A',  'comparison' : '>'},
-            {'name': 'Bigger B',  'comparison' : '>'},
-            {'name': 'Smaller B', 'comparison' : '<'}
+            {'name': 'Loyalty', 'comparison' : '>'},
+            {'name': 'Agility',  'comparison' : '>'},
+            {'name': 'Cuddliness',  'comparison' : '>'},
+            {'name': 'Appetite', 'comparison' : '<'}
           ],
           'cards' : [
-            {'name': 'Example 1', 'fields' : [57, 8, 161, 534]},
-            {'name': 'Example 2', 'fields' : [54, 10, 186, 524]},
-            {'name': 'Example 3', 'fields' : [38, 7, 178, 553]},
-            {'name': 'Example 4', 'fields' : [69, 4, 196, 410]},
-            {'name': 'Example 5', 'fields' : [69, 9, 150, 464]},
-            {'name': 'Example 6', 'fields' : [19, 2, 155, 463]},
-            {'name': 'Example 7', 'fields' : [32, 2, 142, 534]},
-            {'name': 'Example 8', 'fields' : [73, 5, 164, 443]},
-            {'name': 'Example 9', 'fields' : [31, 5, 183, 546]},
-            {'name': 'Example 10', 'fields' : [53, 8, 103, 557]},
-            {'name': 'Example 11', 'fields' : [54, 3, 132, 428]},
-            {'name': 'Example 12', 'fields' : [62, 6, 79, 445]},
-            {'name': 'Example 13', 'fields' : [45, 9, 133, 497]},
-            {'name': 'Example 14', 'fields' : [99, 3, 171, 447]},
-            {'name': 'Example 15', 'fields' : [44, 5, 186, 415]},
-            {'name': 'Example 16', 'fields' : [91, 7, 94, 427]},
-            {'name': 'Example 17', 'fields' : [24, 2, 181, 528]},
-            {'name': 'Example 18', 'fields' : [97, 3, 113, 490]},
-            {'name': 'Example 19', 'fields' : [48, 10, 139, 600]},
-            {'name': 'Example 20', 'fields' : [54, 8, 84, 575]},
-            {'name': 'Example 21', 'fields' : [68, 8, 104, 527]},
-            {'name': 'Example 22', 'fields' : [12, 2, 181, 481]},
-            {'name': 'Example 23', 'fields' : [62, 8, 123, 494]},
-            {'name': 'Example 24', 'fields' : [50, 8, 142, 522]},
-            {'name': 'Example 25', 'fields' : [96, 5, 87, 585]},
-            {'name': 'Example 26', 'fields' : [73, 7, 106, 425]},
-            {'name': 'Example 27', 'fields' : [67, 10, 68, 424]},
-            {'name': 'Example 28', 'fields' : [78, 4, 199, 480]},
-            {'name': 'Example 29', 'fields' : [21, 4, 55, 430]},
-            {'name': 'Example 30', 'fields' : [56, 10, 134, 417]},
-            {'name': 'Example 31', 'fields' : [71, 1, 134, 424]},
-            {'name': 'Example 32', 'fields' : [84, 2, 160, 556]}
+            {'name': 'Angel', 'image' : 'assets/top-trumps-cats-angel.jpg', 'fields' : [57, 8, 161, 534]},
+            {'name': 'Bastet', 'image' : 'assets/top-trumps-cats-bastet.jpg', 'fields' : [54, 10, 186, 524]},
+            {'name': 'Bull', 'image' : 'assets/top-trumps-cats-bull.jpg', 'fields' : [38, 7, 178, 553]},
+            {'name': 'Clark', 'image' : 'assets/top-trumps-cats-clark.jpg', 'fields' : [69, 4, 196, 410]},
+            {'name': 'Cuddles', 'image' : 'assets/top-trumps-cats-cuddles.jpg', 'fields' : [69, 9, 150, 464]},
+            {'name': 'Cutie', 'image' : 'assets/top-trumps-cats-cutie.jpg', 'fields' : [19, 2, 155, 463]},
+            {'name': 'Daisy', 'image' : 'assets/top-trumps-cats-daisy.jpg', 'fields' : [32, 2, 142, 534]},
+            {'name': 'Donut', 'image' : 'assets/top-trumps-cats-donut.jpg', 'fields' : [73, 5, 164, 443]},
+            {'name': 'Firefly', 'image' : 'assets/top-trumps-cats-firefly.jpg', 'fields' : [31, 5, 183, 546]},
+            {'name': 'Flabber', 'image' : 'assets/top-trumps-cats-flabber.jpg', 'fields' : [53, 8, 103, 557]},
+            {'name': 'Furry', 'image' : 'assets/top-trumps-cats-furry.jpg', 'fields' : [54, 3, 132, 428]},
+            {'name': 'Grumpy', 'image' : 'assets/top-trumps-cats-grumpy.jpg', 'fields' : [62, 6, 79, 445]},
+            {'name': 'Hunky Hank', 'image' : 'assets/top-trumps-cats-hunky-hank.jpg', 'fields' : [45, 9, 133, 497]},
+            {'name': 'Hunter', 'image' : 'assets/top-trumps-cats-hunter.jpg', 'fields' : [99, 3, 171, 447]},
+            {'name': 'Jay', 'image' : 'assets/top-trumps-cats-jay.jpg', 'fields' : [44, 5, 186, 415]},
+            {'name': 'Little Lion', 'image' : 'assets/top-trumps-cats-little-lion.jpg', 'fields' : [91, 7, 94, 427]},
+            {'name': 'Lynx', 'image' : 'assets/top-trumps-cats-lynx.jpg', 'fields' : [24, 2, 181, 528]},
+            {'name': 'Nappy', 'image' : 'assets/top-trumps-cats-nappy.jpg', 'fields' : [97, 3, 113, 490]},
+            {'name': 'Owl', 'image' : 'assets/top-trumps-cats-owl.jpg', 'fields' : [48, 10, 139, 600]},
+            {'name': 'P-Dog', 'image' : 'assets/top-trumps-cats-pdog.jpg', 'fields' : [54, 8, 84, 575]},
+            {'name': 'Precious', 'image' : 'assets/top-trumps-cats-precious.jpg', 'fields' : [68, 8, 104, 527]},
+            {'name': 'Rex', 'image' : 'assets/top-trumps-cats-rex.jpg', 'fields' : [12, 2, 181, 481]},
+            {'name': 'Rumble', 'image' : 'assets/top-trumps-cats-rumble.jpg', 'fields' : [62, 8, 123, 494]},
+            {'name': 'Scarface', 'image' : 'assets/top-trumps-cats-scarface.jpg', 'fields' : [50, 8, 142, 522]},
+            {'name': 'Scratchy', 'image' : 'assets/top-trumps-cats-scratchy.jpg', 'fields' : [96, 5, 87, 585]},
+            {'name': 'Sleeky', 'image' : 'assets/top-trumps-cats-sleeky.jpg', 'fields' : [73, 7, 106, 425]},
+            {'name': 'Spencer', 'image' : 'assets/top-trumps-cats-spencer.jpg', 'fields' : [67, 10, 68, 424]},
+            {'name': 'Swift', 'image' : 'assets/top-trumps-cats-swift.jpg', 'fields' : [78, 4, 199, 480]},
+            {'name': 'Timi', 'image' : 'assets/top-trumps-cats-timi.jpg', 'fields' : [21, 4, 55, 430]},
+            {'name': 'Tony', 'image' : 'assets/top-trumps-cats-tony.jpg', 'fields' : [56, 10, 134, 417]},
+            {'name': 'V', 'image' : 'assets/top-trumps-cats-v.jpg', 'fields' : [71, 1, 134, 424]},
+            {'name': 'Watson', 'image' : 'assets/top-trumps-cats-watson.jpg', 'fields' : [84, 2, 160, 556]}
           ],
           'trick' : 'requeue',
-          'difficulty' : 'normal'
+          'difficulty' : 'easy',
+          'onInit' : function($instance, settings) {
+            var title = 'Top Trumps Cats<br>Start Game';
+            $instance.find('.tt-start-button').html(title);
+          },
+          'onComplete' : function($instance, settings) {
+
+          },
+          'renderCard' : function($card, card, fields) {
+            $card.find('.tt-card-fields')
+              .before('<img src="' +  card.image + '" alt="' + card.name + '" width="300" height="300">');
+          }
         });
       });
     </script>
