@@ -1,4 +1,11 @@
-﻿.tt-wrapper {
+﻿/**
+ * jQuery TopTrumps
+ *
+ * @version 0.9.0
+ * @author Christian Hanne <mail@christianhanne.de>
+ * @author Sophie Sievert <mail@sophiesievert.de>
+ */
+.tt-wrapper {
   width: 600px;
   margin: 10% auto 0;
 
@@ -21,6 +28,10 @@
   background: #3a87ad;
 }
 
+.tt-side.tt-user .tt-points {
+  color: #3a87ad;
+}
+
 .tt-side.tt-user .tt-card-field.top-trump {
   color: blue;
 }
@@ -33,6 +44,10 @@
 
 .tt-side.tt-cpu .tt-card-name {
   background: #b94a48;
+}
+
+.tt-side.tt-cpu .tt-points {
+  color: #b94a48;
 }
 
 .tt-card {
