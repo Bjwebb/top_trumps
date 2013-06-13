@@ -12,7 +12,9 @@
  *
  * @version 0.9.0
  * @author Christian Hanne <mail@christianhanne.de>
+ * @author Sophie Sievert <mail@sophiesievert.de>
  * @link http://www.christianhanne.de
+ * @link http://www.sophiesievert.de
  * @link http://demo.christianhanne.de/jquery_top_trumps
  */
 (function($) {
