@@ -49,10 +49,10 @@
           'cards' : [],
 
           // Will be called after top trumps has been built.
-          'onInit' : function($instance) {},
+          'onInit' : function($instance, settings) {},
 
           // Will be called when game ends.
-          'onComplete' : function($instance) {},
+          'onComplete' : function($instance, settings) {},
 
           // Use this method to change the look of your cards.
           // For example you could add a fancy looking image.
