@@ -1,8 +1,8 @@
 jQuery TopTrumps
 ==========
 
-This plugins turns every container into a fully customizable top trumps game.
-Please check wikipedia if you don't know what a top trums game is.
+This plugins turns any container into a fully customizable top trumps game.
+Please check wikipedia if you don't know what a top trumps game is.
 http://en.wikipedia.org/wiki/Top_Trumps
 
 Every top trumps game you create can be customized to your needs. You can change the difficulty, define fields & comparison logic, add cards and use some callbacks to customize the game.
@@ -113,12 +113,12 @@ This is a list of all available callbacks. The params should be understandable w
   </tr>
   <tr>
     <td>onInit</td>
-    <td>$instance</td>
+    <td>$instance, settings</td>
     <td>Will be called after top trumps has been built.</td>
   </tr>
   <tr>
     <td>onComplete</td>
-    <td>$instance</td>
+    <td>$instance, settings</td>
     <td>Will be called when game ends.</td>
   </tr>
   <tr>
