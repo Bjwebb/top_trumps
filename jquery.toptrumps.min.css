@@ -1,7 +1,7 @@
 /**
  * jQuery TopTrumps
  *
- * @version 0.9.0
+ * @version 0.9.1
  * @author Christian Hanne <mail@christianhanne.de>
  * @author Sophie Sievert <mail@sophiesievert.de>
  */
