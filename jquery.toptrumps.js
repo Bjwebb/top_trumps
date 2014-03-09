@@ -249,7 +249,7 @@
         var $card = $('<div/>').addClass('tt-card');
 
         if (player === tt.topTrumpsTurn || player === 'user') {
-          $('<div/>').addClass('tt-card-name').html(card.name).appendTo($card);
+          $('<div/>').addClass('tt-card-name').append($('<a/>').attr('href', card.url).html(card.name)).appendTo($card);
 
           var $fields = methods.renderCardFields(card, settings.fields, settings.trumps, player);
           $fields.appendTo($card);
